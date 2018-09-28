@@ -2,7 +2,7 @@
 import os
 
 DATA_SET_CAT = "val"#train/val
-ROOT_DIR = 'C:/Ducy/Datasets/breast_coco/'
+ROOT_DIR = 'C:/Project/Res/breast_coco/'
 ANN_DIR = os.path.join(ROOT_DIR, DATA_SET_CAT+"2018")
 
 def main():

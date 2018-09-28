@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 import os
 
-DATA_SET_CAT = "train"#train/val
-ROOT_DIR = 'C:/Ducy/Datasets/breast_coco/'
+DATA_SET_CAT = "_train"#train/val
+ROOT_DIR = 'C:/Project/Res/breast_coco/'
 ANN_DIR = os.path.join(ROOT_DIR, "annotations"+DATA_SET_CAT)
 
 def main():

@@ -11,17 +11,17 @@ from pycococreatortools import pycococreatortools
 
 #Need to modify here#
 DATA_SET_CAT = "val"
-ROOT_DIR = 'C:/Ducy/DataSets/breast_coco'
+ROOT_DIR = 'C:/Project/Res/breast_coco'
 
 IMAGE_DIR = os.path.join(ROOT_DIR, DATA_SET_CAT+"2018")
 ANNOTATION_DIR = os.path.join(ROOT_DIR, "annotations_"+DATA_SET_CAT)
 
 INFO = {
     "description": "breast Dataset",
-    "url": "https://github.com/ChengyangDu/pycococreator",
+    "url": "https://github.com/AndyCPP/pycococreator",
     "version": "0.1.0",
     "year": 2018,
-    "contributor": "ChengyangDu",
+    "contributor": "AndyCPP",
     "date_created": datetime.datetime.utcnow().isoformat(' ')
 }
 
